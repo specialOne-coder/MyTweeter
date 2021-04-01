@@ -5,8 +5,8 @@ const styles = StyleSheet.create({
         width:'100%',
         flexDirection:'row',
         padding:15,
-        borderBottomWidth:0.5,
-        borderColor:'grey',
+        borderBottomWidth:0.25,
+        borderColor:'lightgrey',
     }
 })
 

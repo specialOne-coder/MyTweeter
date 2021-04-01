@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native'
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        marginHorizontal:10
+        marginHorizontal:10,
     },
     tweetHeaderContainer: {
         flexDirection: 'row',
@@ -28,6 +28,14 @@ const styles = StyleSheet.create({
         marginRight: 5,
         lineHeight:19  
     },
+    image:{
+        marginVertical:10,
+        width:'100%',
+        height:200,
+        resizeMode:'cover',
+        borderRadius:15,
+        overflow:'hidden'
+    }
 })
 
 export default styles;

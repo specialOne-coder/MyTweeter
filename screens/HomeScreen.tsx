@@ -5,11 +5,12 @@ import EditScreenInfo from '../components/EditScreenInfo';
 import { View } from '../components/Themed';
 import Tweet from '../components/Tweet';
 import data from '../Data/tweets';
+import Feed from '../components/Feed';
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-       <Tweet tweet={data[0]}/>
+       <Feed/>
     </View>
   );
 }
