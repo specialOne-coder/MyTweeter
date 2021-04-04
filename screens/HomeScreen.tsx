@@ -6,11 +6,13 @@ import { View } from '../components/Themed';
 import Tweet from '../components/Tweet';
 import data from '../Data/tweets';
 import Feed from '../components/Feed';
+import NewTweetButton from '../components/NewTweetBtn';
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
        <Feed/>
+       <NewTweetButton/>
     </View>
   );
 }
